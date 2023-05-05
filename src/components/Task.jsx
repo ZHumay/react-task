@@ -57,10 +57,14 @@ function Task() {
                     <Form Function = {addProduct} />
                 </Col>
 
+                 <Col xs={6}>
+                       <Edit save={save}/>
+                </Col>
+
             </Row>
 
      </Container>
-     <Edit save={save}/>
+
       </>
 
    
