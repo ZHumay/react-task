@@ -10,6 +10,7 @@ function Edit(props) {
     
     <Form inline style={{paddingTop:80}}>
         <FormGroup>
+      <h1> Edit</h1>
           <Label for="exampleEmail" hidden>Name</Label>
           <Input type="text" value={editName} name="name" id="name" placeholder="Name"  onChange={(e) => seteditName(e.target.value,'name')}/>
         </FormGroup>
